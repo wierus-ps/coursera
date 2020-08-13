@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  color: #161313;
+}
+
+#header-nav{
+	background-color: yellow;
+	border: 0;
+}
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 1px solid black;
+  background-color: grey;
+}
+.navbar-brand {
+	height: auto;
+}
+/* Company name*/
+.navbar-brand a h2 {
+	margin: 0;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+/*Main content*/
+h3 {
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.section-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+.home-tiles {
+	background-color: grey;
+	padding: 10px;
+	height: 800px;
+	margin-bottom: 20px;
+}
+.row {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.menu-item-description {
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+/*Navbar*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+div .navbar-brand{
+	/*padding-left: 30px;*/
+}
+/*Navbar button*/
+.navbar-header button.navbar-toggle {
+	border: 1px solid black;
+}
+.navbar-header .icon-bar {
+	border: 2px solid black;
+}
+#collapsable-nav {
+	border: 0;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a{
+	color: black;
+    text-align: center;
+	border-top: 1px solid black;
+	font-size: 1.2em;
+	background-color: white;
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 100%;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.col-md-4 {
+		width: 33.333%;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-tiles {
+		height: auto;
+	}	
+}
+
